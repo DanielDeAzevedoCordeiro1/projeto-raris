@@ -17,6 +17,8 @@ form {
     background-color: #9B7605;
     padding: 20px;
     border-radius: 5px;
+    font-size: 50px;
+    border-radius: 30px;
 }
 
 .form-group {
@@ -62,12 +64,18 @@ button {
 
 .recuperasenha {
     text-decoration: none;
-    color: white;
+    color: rgb(238, 238, 238);
     margin-left: 15px;
+    
 }
 
 .fazerlogincom {
     color: white;
-    font-size: 13px;
-    margin-left: 30px;
+    font-size: 15px;
+    margin-left: 140px;
+}
+
+.botaogoogle{
+    width: 300px;
+    margin-left: 106px;
 }
