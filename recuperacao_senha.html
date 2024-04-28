@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Recuperação de Senha</title>
+    <link rel="stylesheet" type="text/css" href="recuperacao_senha.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    
+    <div class="container">
+        <form>
+            <h1>Recuperação de Senha</h1>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            <button type="submit">Recuperar Senha</button>
+
+            <div class="voltar">
+                <button class="back-to-login" onclick="window.location.href='testelogin.html'"><i class="material-icons">arrow_back</i> Voltar para o login</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
