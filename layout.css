@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
+body {
+    font-family: 'Urbanist', sans-serif;
+    background-color:  #cccccb;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    
+}
+.quadrado {
+    background-color: #9c7404;
+    padding: 3%;
+    border-radius: 10px;
+    width: 360px; /* Define a largura do formulário */
+    label{
+        color: white; /* dentro da div com class quadrado, todas label são brancas */
+    }
+    a{
+        text-decoration: none;
+        color:white;
+    }
+}
+
+.centroDiv{
+    margin: 0 auto;
+}
+h1 {
+    margin-bottom: 30px;
+    font-size: 32px; /* Ajustando o tamanho da fonte */
+}
+.btnForm { /* faz aquele botao cinza */
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #cccccb;
+    font-size: 16px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: black
+    }
+}
+.teste:hover {
+    background-color: #da890f;
+}
+
+.navzinha{
+    background-color: black;
+    color:#9c7404;
+    font-weight: bold;
+    
+    a{
+    text-decoration: none;
+    color:#9c7404;
+    margin-left: 8px;
+    margin-right: 15px;
+    }
+}
+
+.teste {
+    display: inline-block;
+    background-color: #9c7404;
+    font-size: 4px;
+    padding: 25px 50px; 
+    margin-bottom: 20px;
+    border-radius: 10px; 
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    a{
+        text-decoration: none;
+        color: #fff;
+        }
+}
