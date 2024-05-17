@@ -3,22 +3,26 @@
 body {
     font-family: 'Urbanist', sans-serif;
     background-color:  #cccccb;
-    font-size: 16px;
     margin: 0;
     padding: 0;
-    
+        text-align: justify;
+        text-align: justify;
+
 }
 .quadrado {
     background-color: #9c7404;
-    padding: 3%;
-    border-radius: 10px;
-    width: 360px; /* Define a largura do formulário */
+    padding: 25px 40px; 
+    border-radius: 15px;
+    margin: 3%;
     label{
         color: white; /* dentro da div com class quadrado, todas label são brancas */
     }
     a{
         text-decoration: none;
         color:white;
+    }
+    p{
+        color:black;
     }
 }
 
@@ -28,6 +32,7 @@ body {
 h1 {
     margin-bottom: 30px;
     font-size: 32px; /* Ajustando o tamanho da fonte */
+    text-align: center;
 }
 .btnForm { /* faz aquele botao cinza */
     width: 100%;
@@ -41,11 +46,13 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
     a{
         text-decoration: none;
         color: black
     }
+}
+.btnForm:hover{
+    background-color: #b4b3b3;
 }
 .teste:hover {
     background-color: #da890f;
@@ -55,7 +62,6 @@ h1 {
     background-color: black;
     color:#9c7404;
     font-weight: bold;
-    
     a{
     text-decoration: none;
     color:#9c7404;
@@ -67,15 +73,24 @@ h1 {
 .teste {
     display: inline-block;
     background-color: #9c7404;
-    font-size: 4px;
     padding: 25px 50px; 
     margin-bottom: 20px;
-    border-radius: 10px; 
+    border-radius: 15px; 
     text-align: center;
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
     a{
         text-decoration: none;
         color: #fff;
         }
+}
+
+.preto{ /* caixa arredondada para text*/
+    background-color: black;
+    color: #9c7404;
+    padding: 25px 40px; 
+    border-radius: 15px; 
+    margin: 3%;
+    
 }
