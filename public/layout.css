@@ -1,22 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
-.diagonal {
-    background-color: #9c7404;
-    clip-path: polygon(100% 50%,00% 00%, 00% 100%, 0% 100%);
-    color: white;
-    padding: 6%;
-}
-.diagonalB {
-    background-color: #9c7404;
-    clip-path: polygon(100% 50%,100% 30%, 00% 100%, 100% 100%);
-    padding: 6%;
-}
+
 body {
     font-family: 'Urbanist', sans-serif;
-    font-size: large;
     background-color:  #cccccb;
     margin: 0;
     padding: 0;
-    text-align: justify;    
+        text-align: justify;
+        text-align: justify;
+
 }
 .quadrado {
     background-color: #9c7404;
@@ -33,22 +24,8 @@ body {
     p{
         color:black;
     }
-    h3{
-        font-weight: bold;
-    }
-    h4{
-        font-weight: bold;
-    }
-    input{
-        width: 100%;
-    }
 }
-.lista{
-    margin: 5%;
-    padding: 3%;
-    background-color: black;
-    border-radius: 32px    
-}
+
 .centroDiv{
     margin: 0 auto;
 }
@@ -115,17 +92,5 @@ h1 {
     padding: 25px 40px; 
     border-radius: 15px; 
     margin: 3%;
-    h3{
-        font-weight: bold;
-    }
-    h4{
-        font-weight: bold;
-    }
-}
-.btnSobre{
-    width:100%;
-    color:#940000;
-    font-weight: bold;
-    border:none;
-    background:none;
+    
 }
