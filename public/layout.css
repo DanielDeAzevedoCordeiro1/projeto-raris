@@ -1,63 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
 .diagonal {
     background-color: #9c7404;
-    clip-path: polygon(100% 50%,00% 00%, 00% 100%, 0% 100%);
+    clip-path: polygon(100% 50%, 00% 00%, 00% 100%, 0% 100%);
     color: white;
     padding: 6%;
 }
-.diagonalB {
-    background-color: #9c7404;
-    clip-path: polygon(100% 50%,100% 30%, 00% 100%, 100% 100%);
-    padding: 6%;
-}
+
 body {
     font-family: 'Urbanist', sans-serif;
     font-size: large;
-    background-color:  #cccccb;
+    background-color: #e4e4e4;
     margin: 0;
     padding: 0;
-    text-align: justify;    
+    text-align: justify;
 }
-.quadrado {
-    background-color: #9c7404;
-    padding: 25px 40px; 
+
+.quadradoAmarelo {
+    background-color: #d19900;
+    padding: 25px 40px;
     border-radius: 15px;
     margin: 3%;
-    label{
-        color: white; /* dentro da div com class quadrado, todas label são brancas */
+
+    label {
+        color: white;
     }
-    a{
+
+    a {
         text-decoration: none;
-        color:white;
+        color: white;
     }
-    p{
-        color:black;
+
+    p {
+        color: black;
     }
-    h3{
+
+    h3 {
         font-weight: bold;
     }
-    h4{
+
+    h4 {
         font-weight: bold;
     }
-    input{
+
+    input {
         width: 100%;
     }
+
+    select {
+        width: 100%;
+        height: 55%;
+    }
 }
-.lista{
+
+.lista {
     margin: 5%;
     padding: 3%;
     background-color: black;
-    border-radius: 32px    
+    border-radius: 32px
 }
-.centroDiv{
+
+.centroDiv {
     margin: 0 auto;
 }
+
 h1 {
     margin-bottom: 30px;
-    font-size: 32px; /* Ajustando o tamanho da fonte */
+    font-size: 32px;
+    /* Ajustando o tamanho da fonte */
     text-align: center;
 }
-.btnForm { /* faz aquele botao cinza */
+
+.btnForm {
+    /* faz aquele botao cinza */
     width: 100%;
     padding: 12px;
     border: none;
@@ -69,63 +84,78 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    a{
+
+    a {
         text-decoration: none;
         color: black
     }
 }
-.btnForm:hover{
+
+.btnForm:hover {
     background-color: #b4b3b3;
 }
+
 .teste:hover {
-    background-color: #da890f;
+    background-color: #9c7404;
 }
 
-.navzinha{
+.navzinha {
     background-color: black;
-    color:#9c7404;
+    color: #d19900;
     font-weight: bold;
-    a{
-    text-decoration: none;
-    color:#9c7404;
-    margin-left: 8px;
-    margin-right: 15px;
+
+    a {
+        text-decoration: none;
+        color: #d19900;
+        margin-left: 8px;
+        margin-right: 15px;
     }
 }
 
-.teste {
+.btnAmr {
     display: inline-block;
-    background-color: #9c7404;
-    padding: 25px 50px; 
+    background-color: #d19900;
+    padding: 25px 50px;
     margin-bottom: 20px;
-    border-radius: 15px; 
+    border-radius: 15px;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 
-    a{
+    a {
         text-decoration: none;
         color: #fff;
-        }
+    }
 }
 
-.preto{ /* caixa arredondada para text*/
+.quadradoPreto {
+    /* caixa arredondada para text*/
     background-color: black;
-    color: #9c7404;
-    padding: 25px 40px; 
-    border-radius: 15px; 
+    color: #d19900;
+    padding: 25px 40px;
+    border-radius: 15px;
     margin: 3%;
-    h3{
+
+    h3 {
         font-weight: bold;
     }
-    h4{
+
+    h4 {
         font-weight: bold;
     }
 }
-.btnSobre{
-    width:100%;
-    color:#940000;
+
+.btnSobre {
+    width: 100%;
+    color: #940000;
     font-weight: bold;
-    border:none;
-    background:none;
+    border: none;
+    background: none;
+}
+
+.alinhaLogo {
+    margin-left: auto;
+    display: block;
+    width: 40%;
+    margin-right: auto;
 }

@@ -4,22 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperação de Senha</title>
-    <link rel="stylesheet" type="text/css" href="recuperacao_senha.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="components/header.js" type=" text/javascript"></script>
 </head>
+<header-component></header-component>
 <body>
     <div class="container">
+        <div class="row">
+            <div class = "col-4"></div>
+            <div class = "quadradoAmarelo col-4">
         <form>
             <h1>Recuperação de Senha</h1>
             <div class="form-group">
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
             </div>
-
-            <button type="submit">Recuperar Senha</button>
+<br>
+            <button type="submit" class="btnForm">Recuperar Senha</button>
+            <br>
+            <br>
 
             <div class="voltar">
-                <button class="back-to-login" onclick="window.location.href='testelogin.html'"><i class="material-icons">arrow_back</i> Voltar para o login</button>
+                <button class="btn" onclick="window.location.href='login.html'"><i class="material-icons">arrow_back</i> Voltar para o login</button>
             </div>
         </form>
     </div>

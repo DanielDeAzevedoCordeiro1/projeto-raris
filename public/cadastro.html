@@ -11,12 +11,17 @@
 
 <body>
     <form action="/cadastro" method="post">
-        <div class="container quadrado">
+        <div class="container quadradoAmarelo">
+            <div class="row">
+                <h2>
+                    Preencha seu cadastro
+                </h2>
+            </div>
             <div class="row">
                 <div class="col-4">
                     <label for="nome">Nome</label>
                     <br>
-                    <input type="text" style="width: 100%;" id="nome" name="nomeInput" placeholder="Digite seu nome"
+                    <input type="text"  id="nome" name="nomeInput" placeholder="Digite seu nome"
                         required>
                 </div>
                 <div class="col-4">
@@ -31,11 +36,17 @@
                 </div>
             </div>
             <br>
-                <div class="form-group">
+            <div class="row">
+                <div class="col-9">
                     <label for="nire">Endereco</label>
                     <br>
-                    <input type="text" id="cpf" name="cpf" placeholder="Cidade - UF. Rua Nome da rua, Bairro Nome Bairro, 10. AP 50">
+                    <input type="text" id="cpf" name="cpfInput" placeholder="Cidade - UF. Rua Nome da rua, Bairro Nome Bairro, 10. AP 50">
                 </div>
+                <div class = "col-3">
+                    <label for="nascimento">Data de Nascimento</label>
+                        <input type="date" id="start" name="nascimentoInput" min="1930-01-01" max="2010-12-31" />
+                </div>
+            </div>
                 <br>
                 <div class = "row">
                 <div class="col-3">
@@ -49,11 +60,12 @@
                     <input type="text" id="cnpj" name="cnpj" placeholder="Digite seu CNPJ" required>
                 </div>
                 <div class="col-4">
-                    <label for="tipoLicenca">Tipo de Licença</label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option value="1">Prestação de serviços</option>
-                        <option value="2">Comercial</option>
-                        <option value="3">Mista</option>
+                    <label  for="tipoLicenca">Tipo de Licença</label>
+                    <br>
+                    <select >
+                        <option value="Prestação de serviços">Prestação de serviços</option>
+                        <option value="Comercial">Comercial</option>
+                        <option value="Mista">Mista</option>
                     </select>
                 </div>
             </div>
@@ -73,7 +85,7 @@
             <br><br>
                 <button class="btnForm" type="submit">Cadastrar</button>
 
-                <div class="fazerlogincom"><a href="testelogin.html">Já possuo cadastro</a></div>
+                <div class="fazerlogincom"><a href="login.html">Já possuo cadastro</a></div>
 
                 <!-- <div class="botaogoogle"><button>Google</button></div> -->
     </form>
