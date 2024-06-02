@@ -7,6 +7,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="layout.css">
+    <script src="front.js" type="text/javascript"></script>
     </head>
     <body>
     <nav class="navbar navzinha justify-content-between">
@@ -24,7 +25,7 @@ class Header extends HTMLElement {
         <li class="nav-item mx-5">
       </li>
       <li class="nav-item mx-3">
-      <a href="#">Calculadora</a>
+      <a href="" onclick="temporario()">Calculadora</a>
     </li>
         <li class="nav-item mx-5">
         </li>     
